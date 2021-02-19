@@ -20,11 +20,11 @@
         "observacao" => $observacao );
 
     //Transforma o array em JSON
-    $contato_json = json_encode($contato);
+    //JSON_UNESCAPED_UNICODE --> permitir acentos
+    //PHP_EOL --> indica fim de uma linha entre um registro e outro
+    $contato_json = json_encode($contato,JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) . PHP_EOL;
 
-    //Cria arquivo JSON
-    $lista_contatos = fopen("lista_contatos.txt", "w") or die ("Incapaz de abrir arquivo.");
-    fwrite($lista_contatos,$contato_json);
-    fclose($lista_contatos);
-
+    //Grava contato em arquivo JSON
+    //Se o arquivo não existe, é criado. Se já existe, adiciona registro no final do arquivo.
+    file_put_contents('lista_contatos.json', $contato_json, FILE_APPEND);
 ?>

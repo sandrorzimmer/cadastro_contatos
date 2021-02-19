@@ -1,0 +1,14 @@
+{
+    "nome": "José Moreira",
+    "email": "jose@moreira.com.br",
+    "telefone": "48-99999-9999",
+    "tipo_contato": "cliente",
+    "observacao": "José gosta de comprar picolés."
+}
+{
+    "nome": "Jacó da Silva",
+    "email": "jaco@jaco.com.br",
+    "telefone": "48-99999-9999",
+    "tipo_contato": "cliente",
+    "observacao": "Jacó comprou uma colheitadeira de feijão.\r\nAgora vai comprar um carro."
+}
