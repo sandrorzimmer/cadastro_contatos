@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Meta tags obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Cadastro</title>
+</head>
+    <body>
+        <div class="container">
+            <div class="py-4 text-center">
+                <h2>Cadastro de contato</h2>
+            </div>
+        </div>
+
+        <div class="container">
+            <form action="_php/cadastro.php" method="GET">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" name="nome" class="form-control" id="nome" placeholder="Digite o nome">
+                </div>
+                <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="fulano@email.com">
+                </div>
+                <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="text" name="telefone" id="telefone" class="form-control" placeholder="48-99999-9999">
+                </div>
+                <div class="form-group">
+                <label for="tipo_contato">Tipo de contato</label>
+                <select name="tipo_contato" class="form-control" id="tipo_contato">
+                    <option value="cliente">Cliente</option>
+                    <option value="fornecedor">Fornecedor</option>
+                    <option value="parceiro">Parceiro</option>
+                    <option value="outros">Outros</option>
+                </select>
+                </div>
+                <div class="form-group">
+                <label for="observacao">Observação</label>
+                <textarea class="form-control" name="observacao" id="observacao" rows="3" placeholder="Digite seu texto aqui"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Salvar</button>
+                <button type="reset" class="btn btn-primary">Limpar</button>
+            </form>
+        </div>
+
+        <!-- JavaScript (Opcional) -->
+        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
