@@ -1,7 +1,5 @@
 function enviaRegistroContato () {
 
-    $("#alerta").hide();
-
     let nome = $("#nome").val();
     let email = $("#email").val();
     let telefone = $("#telefone").val();
@@ -26,24 +24,27 @@ function enviaRegistroContato () {
         let dados = JSON.parse(data);
         let sucesso = dados["sucesso"];
         let mensagem = dados["mensagem"];
-
-        console.log(data);
         
         //If insert return is success
         if (sucesso) {
-            $("#alerta").html(mensagem);                       
-            $("#alerta").show().delay(2000).fadeOut();
+            $("#alerta_sucesso").html(mensagem);                       
+            $("#alerta_sucesso").show().delay(2000).fadeOut();
+            $("input").val("");
+            $("textarea").val("");
+            $("#nome").focus();
 
         //If insert return is fail
         } else {
-            $("#alerta").html(mensagem);
-            $("#alerta").show().delay(2000).fadeOut();                        
+            $("#alerta_erro").html(mensagem);
+            $("#alerta_erro").show().delay(2000).fadeOut();
+            $("#nome").focus();
         }                
     }
     
     //Function insertInfo failed
     function fail() {
-        $("#alerta").html("Falhou ao adicionar contato.");
-        $("#alerta").show().delay(2000).fadeOut();
+        $("#alerta_erro").html("Falhou ao adicionar contato.");
+        $("#alerta_erro").show().delay(2000).fadeOut();
+        $("#nome").focus();
     }
 }
