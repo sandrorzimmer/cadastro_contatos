@@ -1,133 +1,37 @@
-{
-    "nome": "Sandro Zimmer",
-    "email": "sandrorzimmer@gmail.com",
-    "telefone": "48-99160-1707",
-    "tipo": "cliente",
-    "observacao": "O Sandro é um bom companheiro."
-}
-{
-    "nome": "Sandro Zimmer",
-    "email": "sandrorzimmer@gmail.com",
-    "telefone": "48-99160-1707",
-    "tipo": "cliente",
-    "observacao": "O Sandro é um bom companheiro."
-}
-{
-    "nome": "Sandro Zimmer",
-    "email": "sandrorzimmer@gmail.com",
-    "telefone": "48-99160-1707",
-    "tipo": "cliente",
-    "observacao": "O Sandro é um bom companheiro."
-}
-{
-    "nome": "Sandro Zimmer",
-    "email": "sandrorzimmer@gmail.com",
-    "telefone": "48-99160-1707",
-    "tipo": "cliente",
-    "observacao": "O Sandro é um bom companheiro."
-}
-{
-    "nome": "hgjghjhgj",
-    "email": "",
-    "telefone": "",
-    "tipo": "cliente",
-    "observacao": ""
-}
-{
-    "nome": "tyutyut",
-    "email": "",
-    "telefone": "",
-    "tipo": "cliente",
-    "observacao": ""
-}
-{
-    "nome": "ghjghj",
-    "email": "",
-    "telefone": "",
-    "tipo": "cliente",
-    "observacao": ""
-}
-{
-    "nome": "dfsdfsdf",
-    "email": "",
-    "telefone": "",
-    "tipo": "cliente",
-    "observacao": ""
-}
-{
-    "nome": "dfgdfgfdg",
-    "email": "",
-    "telefone": "",
-    "tipo": "cliente",
-    "observacao": ""
-}
-{
-    "nome": "dfgdfgfdg",
-    "email": "",
-    "telefone": "",
-    "tipo": "cliente",
-    "observacao": ""
-}
-{
-    "nome": "Camila",
-    "email": "camilavbzimmer@gmail.com",
-    "telefone": "4899999999",
-    "tipo": "cliente",
-    "observacao": "sdfhsbfjhsdfjhsbfhsdf"
-}
-{
-    "nome": "hhjkjhk",
-    "email": "",
-    "telefone": "",
-    "tipo": "cliente",
-    "observacao": ""
-}
-{
-    "nome": "iouio",
-    "email": "uiouio",
-    "telefone": "uiouiou",
-    "tipo": "cliente",
-    "observacao": "uiouiouio"
-}
-{
-    "nome": "tyutyutuy",
-    "email": "",
-    "telefone": "",
-    "tipo": "cliente",
-    "observacao": "tyutyutyu"
-}
-{
-    "nome": "tyutyutyu",
-    "email": "",
-    "telefone": "",
-    "tipo": "cliente",
-    "observacao": ""
-}
-{
-    "nome": "asdasdasd",
-    "email": "",
-    "telefone": "",
-    "tipo": "cliente",
-    "observacao": ""
-}
-{
-    "nome": "dfsdfsdf",
-    "email": "",
-    "telefone": "",
-    "tipo": "cliente",
-    "observacao": ""
-}
-{
-    "nome": "Sandro",
-    "email": "sandrorzimmer@gmail.com",
-    "telefone": "",
-    "tipo": "parceiro",
-    "observacao": ""
-}
-{
-    "nome": "fdgdfgdfg",
-    "email": "",
-    "telefone": "",
-    "tipo": "cliente",
-    "observacao": ""
-}
+[
+    {
+        "nome": "Sandro Zimmer",
+        "email": "sandrorzimmer@gmail.com",
+        "telefone": "48-99160-1707",
+        "tipo": "cliente",
+        "observacao": "O Sandro é um bom camarada."
+    },
+    {
+        "nome": "Camila Zimmer",
+        "email": "camilavbzimmer@gmail.com",
+        "telefone": "48-99166-1707",
+        "tipo": "cliente",
+        "observacao": "Camila comprou uma bicicleta."
+    },
+    {
+        "nome": "Astolfo Madureira",
+        "email": "astolfo@gmulali.com",
+        "telefone": "51-99999-8888",
+        "tipo": "parceiro",
+        "observacao": ""
+    },
+    {
+        "nome": "Jacó Ulrich Panzenhagen",
+        "email": "jaco@panzenhagen.com.br",
+        "telefone": "54-98989-8989",
+        "tipo": "fornecedor",
+        "observacao": "Fornecedor de clipes e borrachinhas."
+    },
+    {
+        "nome": "Setembrino Elias Haus",
+        "email": "sete@haus.com.br",
+        "telefone": "48-97878-5656",
+        "tipo": "parceiro",
+        "observacao": ""
+    }
+]
