@@ -33,5 +33,19 @@
         "telefone": "48-97878-5656",
         "tipo": "parceiro",
         "observacao": ""
+    },
+    {
+        "nome": "Juca Pirama",
+        "email": "juca@pirama.com",
+        "telefone": "47-97878-8989",
+        "tipo": "cliente",
+        "observacao": ""
+    },
+    {
+        "nome": "Armindo Parreira",
+        "email": "armindo@parreira.com.br",
+        "telefone": "45-98787-8787",
+        "tipo": "cliente",
+        "observacao": ""
     }
 ]

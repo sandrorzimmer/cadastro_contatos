@@ -1,6 +1,6 @@
 function buscaContatos() {
 
-    //
+    //Busca o arquivo JSON contendo a lista de contatos
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -9,30 +9,39 @@ function buscaContatos() {
             $("#alerta_sucesso").html("Lista recebida!");
             $("#alerta_sucesso").show().delay(2000).fadeOut();
 
+            //Chama função para filtrar por nome
             filtraContatos(lista_contatos);
         };
     };
 
     xhttp.open("GET", "_php/lista_contatos.json", true);
     xhttp.send();
-    }
+
+    return;
+}
 
 function filtraContatos(lista) {
-    var palavra_chave = $("#palavra_chave").val();
+
+    var palavra_chave = $("#palavra_chave").val(); //nome do contato
     var lista_filtrada = [];
     
+    //Faz a varredura de todos os contatos, procurando por nomes que contenham a palavra-chave
+    //criando um novo array
     $.each(lista, function(index) {
         if (((lista[index]["nome"]).toLowerCase()).includes((palavra_chave.toLowerCase()))) {
             lista_filtrada.push(lista[index]);
         };
     });
 
+    //Chama função para mostrar os contatos filtrados em tela
     mostraContatos(lista_filtrada);
+
+    return;
 }
 
 function mostraContatos(lista_recebida) {
 
-    let lista = lista_recebida;
+    let lista = lista_recebida; //lista de contatos filtrada por nome
 
     //Ordena a lista pela chave 'nome'
     lista.sort(function compara(a,b){
@@ -41,8 +50,10 @@ function mostraContatos(lista_recebida) {
         return 0;
     });
     
+    //Limpa a listagem em tela
     $('#listagem_contatos').empty();
 
+    //Monta a lista de registros no HTML
     $.each(lista, function(index) {
 
         let contato_item;
@@ -69,4 +80,10 @@ function mostraContatos(lista_recebida) {
 
         $('#listagem_contatos').append(contato_item);
     });
+
+    return;
+}
+
+function mostraAlerta(tipo,mensagem) {
+    
 }

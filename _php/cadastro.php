@@ -1,5 +1,5 @@
 <?php
-
+    //Array de retorno de sucesso/erro na inserção de novo contato
     $return = [];
 
     //Testa se existem dados de formulário
@@ -38,6 +38,7 @@
 
         //Transforma o array em JSON
         //JSON_UNESCAPED_UNICODE --> permitir acentos
+        //JSON_PRETTY_PRINT --> formata aparência do arquivo JSON
         //PHP_EOL --> indica fim de uma linha entre um registro e outro
         $lista_json_nova = json_encode($lista,JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) . PHP_EOL;
 
@@ -45,14 +46,14 @@
         //Se o arquivo não existe, é criado. Se já existe, adiciona registro no final do arquivo.
         file_put_contents($url, $lista_json_nova);
 
+        //Retorna mensagem de sucesso ao adicionar novo contato
         $return["sucesso"] = true;
         $return["mensagem"] = "Novo contato adicionado com sucesso.";
     } else {
+        //Retorna mensagem de erro ao adicionar novo contato
         $return["sucesso"] = false;
         $return["mensagem"] = "Contato não adicionado.";
     }
 
-    //header('Cache-Control: no-cache, must-revalidate');
-    //header('Content-Type: application/json');
     echo json_encode($return,JSON_UNESCAPED_UNICODE);
 ?>
