@@ -17,7 +17,7 @@
 * Editar contato
 * Apagar contato
 * Apagar a lista completa
-Todas as edições somente são possíveis alterando o arquivo JSON diretamente.
+* Todas as edições somente são possíveis alterando o arquivo JSON manualmente
 
 ### Como funciona
 * Inserir novo contato
@@ -26,10 +26,15 @@ Todas as edições somente são possíveis alterando o arquivo JSON diretamente.
   * Cadastro.php converte dados em JSON e grava no arquivo _php/lista_contatos.json
   * Mensagem de alerta indica na tela se o contato foi adicionado corretamente ou não
 
+![Cadastro de contato](/imagens/tela_cadastro_contato.png)
+
 * Consultar lista de contatos completa
   * Usuário pode consultar lista completa de contatos apenas clicando no botão Buscar
   * Lista de contatos é carregada em tela, com mensagem de alerta indicando sucesso
 
+![Consulta de contatos](/imagens/tela_consulta_contatos.png)
+
 * Consultar contato por nome
   * Usuário digita o nome ou parte do nome no campo input e cllica Buscar
   * Programa busca todos os contatos contendo a string digitada, com mensagem de alerta indicando sucesso
+
