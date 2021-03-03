@@ -2,8 +2,9 @@
 ## Simples projeto criado para testar o uso de arquivo JSON para armazenamento de dados.
 
 ### Tabela de Conteúdo
-1. [Principais características](#principais-características)
-2. [O que o programa não faz](### O que o programa não faz)
+1. [Principais características](#Principais-características)
+2. [O que o programa não faz](#O-que-o-programa-não-faz)
+3. [Como funciona](#Como-funciona)
 
 ### Principais características
 * Formulário de entrada de dados
