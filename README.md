@@ -2,12 +2,14 @@
 ## Simples projeto criado para testar o uso de arquivo JSON para armazenamento de dados. A aplicação se destina ao aprendizado de programação e não tem objetivo de uso prático.
 
 ### Tabela de Conteúdo
-  * 1. [Principais características](#Principais-características)
-  * 2. [O que o programa não faz](#O-que-o-programa-não-faz)
-  * 3. [Como funciona](#Como-funciona)
-  * 3.1 [Inserir novo contato](#Inserir-novo-contato)
-  * 3.2 [Consultar lista de contatos completa](#Consultar-lista-de-contatos-completa)
-  * 3.3 [Consultar contato por nome](#Consultar-contato-por-nome)
+1. [Principais características](#Principais-características)
+2. [O que o programa não faz](#O-que-o-programa-não-faz)
+3. [Como funciona](#Como-funciona)
+    1. [Inserir novo contato](#Inserir-novo-contato)
+    2. [Consultar lista de contatos completa](#Consultar-lista-de-contatos-completa)
+    3. [Consultar contato por nome](#Consultar-contato-por-nome)
+4. [Bibliotecas e recursos utilizados](#Bibliotecas-e-recursos-utilizados)
+5. [Aprendizado e problemas enfrentados](#Aprendizado-e-problemas-enfrentados)
 
 ### Principais características
 * Formulário de entrada de dados
