@@ -7,7 +7,7 @@
 3. [Como funciona](#Como-funciona)
     3.1 [Inserir novo contato](#Inserir-novo-contato)
     3.2 [Consultar lista de contatos completa](#Consultar-lista-de-contatos-completa)
-    3.3 [Consultar contato por nome](#Consultar contato por nome)
+    3.3 [Consultar contato por nome](#Consultar-contato-por-nome)
 
 ### Principais características
 * Formulário de entrada de dados
