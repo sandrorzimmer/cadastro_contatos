@@ -5,9 +5,9 @@
 1. [Principais características](#Principais-características)
 2. [O que o programa não faz](#O-que-o-programa-não-faz)
 3. [Como funciona](#Como-funciona)
-    3.1 [Inserir novo contato](#Inserir-novo-contato)
-    3.2 [Consultar lista de contatos completa](#Consultar-lista-de-contatos-completa)
-    3.3 [Consultar contato por nome](#Consultar-contato-por-nome)
+  3.1 [Inserir novo contato](#Inserir-novo-contato)
+  3.2 [Consultar lista de contatos completa](#Consultar-lista-de-contatos-completa)
+  3.3 [Consultar contato por nome](#Consultar-contato-por-nome)
 
 ### Principais características
 * Formulário de entrada de dados
@@ -16,6 +16,7 @@
   * Telefone
   * Tipo de contato
   * Observação
+
 * Tela de consulta de contatos
   * Lista completa
   * Consulta por nome
