@@ -46,7 +46,7 @@
 ![Consulta de contatos](/Imagens/tela_consulta_contatos.png)
 
 #### Consultar contato por nome
-  * Usuário digita o nome ou parte do nome no campo input e cllica Buscar
+  * Usuário digita o nome ou parte do nome no campo input e clica Buscar
   * Programa busca todos os contatos contendo a string digitada, com mensagem de alerta indicando sucesso
 
 ### Bibliotecas e recursos utilizados
